@@ -39,3 +39,14 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 ### License
 
 mit
+
+
+
+Task: Create a custom app named Ride Management. Duration: 1h	2
+1. Create Customers Records (ERPNext):	2
+2. Create 3 Items Records (ERPNext):	2
+3. Create a new “Vehicle Ride” DocType with fields:	2
+4. Create a new “Ride Add On” DocType with the fields:	2
+5. Create a new “Ride Booking” DocType with the fields:	3
+6. Export Fixtures:	3
+7. Upload Ride Management App to GitHub:

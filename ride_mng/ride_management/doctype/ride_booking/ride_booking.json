@@ -54,7 +54,7 @@
   {
    "fetch_from": "vehicle.price_per_km",
    "fieldname": "price_per_km",
-   "fieldtype": "Data",
+   "fieldtype": "Currency",
    "label": "Price Per Km"
   },
   {
@@ -122,7 +122,8 @@
   {
    "fieldname": "total_amount",
    "fieldtype": "Currency",
-   "label": "Total Amount"
+   "label": "Total Amount",
+   "read_only": 1
   },
   {
    "fieldname": "section_break_fhw2",
@@ -143,7 +144,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-10-02 17:34:14.458787",
+ "modified": "2025-10-03 11:25:48.731296",
  "modified_by": "Administrator",
  "module": "Ride Management",
  "name": "Ride Booking",

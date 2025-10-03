@@ -234,6 +234,12 @@ app_license = "mit"
 # auth_hooks = [
 # 	"ride_mng.auth.validate"
 # ]
+fixtures = [
+	{"dt": "Item", "filters": [["item_group", "=", "Services"]]},
+	{"dt": "Customer", "filters": [["customer_group", "=", "Commercial"]]},
+	{"dt": "Vehicle Ride"},
+	{"dt": "Ride Booking"},
+]
 
 # Automatically update python controller files with type annotations for this app.
 # export_python_type_annotations = True
@@ -241,4 +247,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
